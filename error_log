@@ -1,0 +1,10 @@
+[24-May-2021 11:44:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function plugin_url() on null in /home/x3hptpr96upu/public_html/radhikabapat/wp-content/themes/radhikatheme-child/functions.php:45
+Stack trace:
+#0 /home/x3hptpr96upu/public_html/radhikabapat/wp-includes/class-wp-hook.php(292): custom_frontend_scripts('')
+#1 /home/x3hptpr96upu/public_html/radhikabapat/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(true, Array)
+#2 /home/x3hptpr96upu/public_html/radhikabapat/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/x3hptpr96upu/public_html/radhikabapat/wp-includes/script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 /home/x3hptpr96upu/public_html/radhikabapat/wp-includes/class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 /home/x3hptpr96upu/public_html/radhikabapat/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 /home/x3hptpr96upu/public_html/radhikabapat/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /home/x3hptpr96upu/public_html/radhikabapat/wp-includes/general-templ in /home/x3hptpr96upu/public_html/radhikabapat/wp-content/themes/radhikatheme-child/functions.php on line 45
